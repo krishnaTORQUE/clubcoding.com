@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /__vp
+Disallow: /_apps
+Disallow: /helperclass
+Allow: /

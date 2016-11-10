@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400);
+
+body{
+    background: #f5f5f5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    clear: both;
+    z-index: 99999;
+    height: 120px;
+    display: block;
+    box-shadow: 0 0 3px #aaa;
+    border-bottom: 1px solid #bbb;
+    background: #f1f1f1 url(../img/hbg.png) no-repeat;
+}
+
+.header_con{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+}
+
+.title_logo {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.title:hover .title_logo{
+    -webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transition: rotate(180deg);
+}
+
+.header_right{
+    float: left;
+    margin: 82px 0 0 300px;
+}
+
+.header_right .icons{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.marquee-lin{
+    display: inline-block;
+    text-shadow: 1px 1px #fff;
+    font-size: 16px;
+    color: blue;
+}
+
+.nav_group{
+    position: absolute;
+    margin: 25px 0 0 -55px;
+    width: 300px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.nav_sicons {
+    margin-bottom: 20px;
+}
+
+.nav_social_icons{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/min-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 180px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.nav_social_icons_apps{
+    background-position: 0 0;
+}
+
+.nav_social_icons_blog{
+    background-position: -94px 0;
+}
+
+.nav_social_icons_live{
+    background-position: -180px 0;
+}
+
+.body{
+    width: 960px;    
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.sidebar{
+    float: left;
+    width: 200px;    
+    margin-top: 120px;
+}
+
+.copy-right{
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    text-shadow: 1px 1px #fff;
+}
+
+.contents{
+    margin: 20px 0;
+    width: 730px;
+    float: right;
+}
+
+.inner_content{
+    text-align: justify;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.inner_content_description,
+.inner_content_title{
+    margin: 5px 0;
+    text-shadow: 1px 1px #fff;
+}
+
+.inner_content_description{
+    color: #777;
+    font-size: 15px;
+}
+
+.inner_content ul li{
+    list-style-type: circle;
+}
+
+.inner_content li{
+    list-style-position: inside;
+}
+
+.post_tags{
+    font-size: 14px;
+    margin: 20px 10px 0 0;
+}
+
+.inner_content .respo_img{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.line-sep{
+    margin: 10px 0;
+}
+
+.nav_social_icons_email{
+    background-position: -285px 0;
+}
+
+.nav_social_icons_faceboook{
+    background-position: -376px 0;
+}
+
+.nav_social_icons_twitter{
+    background-position: -627px 0;
+}
+
+.nav_social_icons_google_plus{
+    background-position: -464px 0;
+}
+
+.nav_social_icons_github{
+    background-position: -544px 0;
+}
+
+.contact_form{
+    margin-top: 30px;
+    display: block;
+}
+
+.contact_form .nam_fild{
+    width: 40%;
+    display: inline-block;    
+}
+
+.contact_form textarea{
+    width: 97%;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.contact_form .nam_fild,
+.contact_form textarea{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.email_send_btn{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.apg_h1{
+    margin: 15px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+
+    .nav_group{
+        width: 145px;
+    }
+    
+    .nav_social_icons{
+        display: block;
+        clear: both;
+        height: 105px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .title_logo{
+        width: 120px;
+    }
+
+    .header_right{        
+        margin: 82px 0 0 160px;
+    }
+    
+    .body{
+        padding-top: 140px;
+    }
+
+    .header_con,
+    .body,
+    .sidebar,
+    .contents{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+
+}
