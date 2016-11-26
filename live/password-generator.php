@@ -1,4 +1,4 @@
-<?php 
+<?php
 if (!defined('ROOT')) {
     require_once $_SERVER['ROOT_PATH'] . $_SERVER['ERROR_PATH'];
 }
@@ -8,8 +8,8 @@ if (!defined('ROOT')) {
 
     <div class="inner_content">
 
-        <h2 class="inner_content_title">Code Minify Tool</h2>
-        
+        <h2 class="inner_content_title">Password Generator</h2>
+
         <p class="inner_content_description">
             <u>On: 12-09-2015</u>
             &emsp;
@@ -17,14 +17,14 @@ if (!defined('ROOT')) {
             &emsp;
             <u>Version: 1.0</u>
         </p>
-        
+
         <p>
             Online Password Generator.<br/>
             We do not store, share or sell any password.
         </p>
-        
+
         <br/>
-        
+
         <?php
         if (isset($_POST['gen_btn'])) {
             $the_gen_pass = '';
@@ -74,7 +74,7 @@ if (!defined('ROOT')) {
                             <?php
                             for ($i = 6; $i <= 20; $i++) {
                                 $checked = null;
-                                if(isset($_POST['pas_len']) && $_POST['pas_len'] == $i) {
+                                if (isset($_POST['pas_len']) && $_POST['pas_len'] == $i) {
                                     $checked = ' selected';
                                 }
                                 echo '<option' . $checked . '>' . $i . '</option>';

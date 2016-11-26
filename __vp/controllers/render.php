@@ -1,5 +1,9 @@
 <?php
 
+namespace VP\Controller;
+
+use VP\Controller\urls;
+
 if (!defined('ROOT')) {
     require_once $_SERVER['ROOT_PATH'] . $_SERVER['ERROR_PATH'];
 }
@@ -19,8 +23,8 @@ class render extends urls {
     function __construct() {
         parent::__construct();
 
-        $this->HEADER = ROOT . '__vp/includes/header.php';
-        $this->FOOTER = ROOT . '__vp/includes/footer.php';
+        $this->HEADER = ROOT . $this->PATH('VP', 'includes') . 'header.php';
+        $this->FOOTER = ROOT . $this->PATH('VP', 'includes') . 'footer.php';
         $this->ERROR = false;
 
         $this->ADD_FUNC = [
@@ -87,6 +91,7 @@ class render extends urls {
          * 
          * If Error
          */
+
         if ($this->ERROR) {
 
             while (ob_get_contents()) {

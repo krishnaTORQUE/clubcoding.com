@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /__vp
+Disallow: /__VP
 Disallow: /_apps
 Disallow: /helperclass
 Allow: /
