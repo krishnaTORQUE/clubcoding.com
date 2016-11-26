@@ -11,7 +11,7 @@ class _config extends VP\System\configure {
 
         $this->APP['NAME'] = 'Club Coding';
         $this->APP['ACTIVE'] = 'cc7.2';
-        // $this->APP['ENVT'] = 'publish';
+        $this->APP['ENVT'] = 'publish';
 
         $this->META['DESCRIPTION'] = 'This club is all about coding';
         $this->META['STICK']['KEYWORDS'] = 'web designer,web developer,penetration,pen test';
@@ -23,7 +23,8 @@ class _config extends VP\System\configure {
             'PASS' => ''
         ];
 
-        $this->APP['AJAX']['REQ'] = 'POST';
+        $this->APP['AJAX']['METHOD'] = 'POST';
+        $this->APP['AJAX']['FROM'] = 'IN';
     }
 
 }
