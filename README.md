@@ -6,6 +6,8 @@ Feel free to use the code in your own projects.
 
 Help me to find bugs and improve the site.
 
+#### Contact: support@clubcoding.com
+
 ### Build With
 PHP (Server Script)
 
@@ -15,8 +17,8 @@ HelperClass (Backend Helper Script)
 
 FrontEnd (Client Library)
 
+Zee Social Buttons (Share Buttons)
+
 ImageSlider (Home Page)
 
-Zee Social Buttons (Social Share Buttons)
-
-#### Last Update: 27-11-2016
+#### Last Update: 01-12-2016

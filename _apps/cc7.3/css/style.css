@@ -116,6 +116,14 @@ header{
     text-shadow: 1px 1px #fff;
 }
 
+.cc_big_btn{
+    width: 90%;
+    margin: 15px auto;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
 .contents{
     margin: 20px 0;
     width: 730px;
@@ -191,12 +199,12 @@ header{
 }
 
 .contact_form .nam_fild{
-    width: 40%;
+    width: 45%;
     display: inline-block;    
 }
 
 .contact_form textarea{
-    width: 97%;
+    width: 100%;
     height: 150px;
     margin-top: 15px;
 }

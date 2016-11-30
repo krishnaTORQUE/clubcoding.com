@@ -28,7 +28,7 @@ if (!defined('ROOT')) {
             </div>
 
             <div class="marquee-lin">
-                <marquee>Added New Post!</marquee>
+                <marquee>Checkout our new tool!</marquee>
             </div>
 
         </div>

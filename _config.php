@@ -10,7 +10,7 @@ class _config extends VP\System\configure {
         parent::__construct();
 
         $this->APP['NAME'] = 'Club Coding';
-        $this->APP['ACTIVE'] = 'cc7.2';
+        $this->APP['ACTIVE'] = 'cc7.3';
         $this->APP['ENVT'] = 'publish';
 
         $this->META['DESCRIPTION'] = 'This club is all about coding';

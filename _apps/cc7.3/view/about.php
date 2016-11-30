@@ -40,7 +40,7 @@ if (!defined('ROOT')) {
     <div class="inner_content" id="donation">
         <h2 class="inner_content_title">Donation</h2>
         <p>
-            Our applications are free and open source application.
+            Our applications are free and <a rel="nofollow" target="_blank" href="https://opensource.org/osd">open source</a> application.
         </p>
         <p>
             Also we have no sponsor and advertise on our website.

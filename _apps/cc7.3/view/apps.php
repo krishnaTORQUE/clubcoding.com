@@ -11,7 +11,7 @@ if (!defined('ROOT')) {
         </h1>
         <br/>
         <div>
-            <a class="btn btn_cbu cc_big_btn" href="https://github.com/krishnaTORQUE?tab=repositories">View All Repositories on Github</a>
+            <a class="btn btn_cbu cc_big_btn" rel="nofollow" target="_blank" href="https://github.com/krishnaTORQUE?tab=repositories">View All Repositories on Github</a>
         </div>
     </div>
 </div>

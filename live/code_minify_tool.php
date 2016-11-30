@@ -17,6 +17,8 @@ if (!defined('ROOT')) {
             &emsp;
             <u>Version: 1.2</u>
         </p>
+        
+        <div class="zee-social-buttons" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
 
         <p>
             Online Code Minify Tool.<br/>
@@ -24,13 +26,13 @@ if (!defined('ROOT')) {
         </p>
 
         <form action="<?php echo $this->URL('FULL'); ?>" method="post">
-            <textarea name="giv_code" class="giv_code" placeholder="Type or paste your code here ..."><?php
+            <textarea name="giv_code" class="field giv_code" placeholder="Type or paste your code here ..."><?php
                 if (isset($_POST['giv_code'])) {
                     echo $_POST['giv_code'];
                 }
                 ?></textarea>
             <label>Type: </label>
-            <select name="type">
+            <select name="field type">
                 <option>HTML</option>
                 <option>CSS</option>
                 <option>JS</option>

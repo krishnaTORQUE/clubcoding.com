@@ -9,6 +9,15 @@ if (!defined('ROOT')) {
     <h1 class="inner_content_title apg_h1">Live Demo &amp; Tools</h1>
 
     <div class="inner_content">
+        <a href="<?php echo $this->URL('APP'); ?>live/is_site_online">
+            <h2>Is Site Online</h2>
+            <p class="inner_content_description">
+                Check weather Website is Online or Offline 
+            </p>
+        </a>
+    </div>
+
+    <div class="inner_content">
         <a href="<?php echo $this->URL('APP'); ?>live/password_generator">
             <h2>Password Generator</h2>
             <p class="inner_content_description">

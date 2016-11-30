@@ -18,6 +18,8 @@ if (!defined('ROOT')) {
             <u>Version: 1.0</u>
         </p>
 
+        <div class="zee-social-buttons" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
+
         <p>
             Online Password Generator.<br/>
             We do not store, share or sell any password.
@@ -66,11 +68,11 @@ if (!defined('ROOT')) {
         ?>
 
         <form action="<?php echo $this->URL('FULL'); ?>" method="post">
-            <table class="table_noborder">
+            <table class="table table_noborder">
                 <tr>
                     <td>Password Length</td>
                     <td>
-                        <select name="pas_len">
+                        <select class="field" name="pas_len">
                             <?php
                             for ($i = 6; $i <= 20; $i++) {
                                 $checked = null;
@@ -113,12 +115,12 @@ if (!defined('ROOT')) {
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align: center">
-                        <input type="text" value="<?php
+                    <td colspan="2">
+                        <input value="<?php
                         if (isset($_POST['gen_btn'])) {
                             echo $the_gen_pass;
                         }
-                        ?>" onclick="javascript:this.select();" placeholder="Your Password Will Be Shown Here" style="width:90%; padding: 4px;text-align: center;" />                        
+                        ?>" onclick="javascript:this.select();" type="text" placeholder="Your Password Will Be Shown Here" class="field" style="width:90%; padding: 4px;text-align: center;" />                        
                     </td>
                 </tr>
             </table>
