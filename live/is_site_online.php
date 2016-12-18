@@ -25,9 +25,8 @@ if (!defined('ROOT')) {
         </p>
 
         <form action="<?php echo $this->URL('FULL'); ?>" method="post" class="giv_name">
-            <input type="text" class="field giv_name" name="site_link" placeholder="Example: https://www.facebook.com" <?php echo (isset($_POST['site_link'])) ? 'value="' . $_POST['site_link'] . '"' : null; ?>/>
-            &nbsp;
-            <input type="submit" value="Check Website Status" class="btn btn_cbu giv_name site_btn" name="site_btn" />
+            <input type="text" class="field field_block giv_name" name="site_link" placeholder="Example: https://www.facebook.com" <?php echo (isset($_POST['site_link'])) ? 'value="' . $_POST['site_link'] . '"' : null; ?>/>
+            <input type="submit" value="Check Website Status" class="btn btn_block btn_cbu giv_name site_btn" name="site_btn" />
         </form>
 
         <div class="site_result"><?php
@@ -53,7 +52,6 @@ if (!defined('ROOT')) {
 
         <style type="text/css">
             .giv_name{
-                width: 95%;
                 margin: 10px 0;
                 text-align: center;
                 padding: 8px;

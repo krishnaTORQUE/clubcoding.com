@@ -13,11 +13,11 @@ if (!defined('ROOT')) {
         <p class="inner_content_description">
             <u>On: 14-08-2015</u>
             &emsp;
-            <u>Update: 31-10-2016</u>
+            <u>Update: 14-12-2016</u>
             &emsp;
-            <u>Version: 1.2</u>
+            <u>Version: 1.3</u>
         </p>
-        
+
         <div class="zee-social-buttons" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
 
         <p>
@@ -26,13 +26,13 @@ if (!defined('ROOT')) {
         </p>
 
         <form action="<?php echo $this->URL('FULL'); ?>" method="post">
-            <textarea name="giv_code" class="field giv_code" placeholder="Type or paste your code here ..."><?php
+            <textarea name="giv_code" class="field field_block giv_code" placeholder="Type or paste your code here ..."><?php
                 if (isset($_POST['giv_code'])) {
                     echo $_POST['giv_code'];
                 }
                 ?></textarea>
             <label>Type: </label>
-            <select name="field type">
+            <select class="field" name="type">
                 <option>HTML</option>
                 <option>CSS</option>
                 <option>JS</option>
@@ -40,7 +40,7 @@ if (!defined('ROOT')) {
                 <option>XML</option>
             </select>
             &nbsp;
-            <input type="submit" name="submit" value="Do Minify!" class="btn btn_cbu"/>
+            <input type="submit" name="submit" value="Do Minify" class="btn btn_cbu"/>
         </form>
 
         <div class="giv_code"><?php
@@ -66,13 +66,13 @@ if (!defined('ROOT')) {
 
         <style type="text/css">
             .giv_code{
-                background: #f5f5f5;
-                width: 97%;
+                background: #fdfdfd;
+                border: 1px solid #ccc;
                 height: 350px;
-                margin-top: 15px;
                 font-size: 12px;
+                margin: 15px 0;
                 font-family: monospace;
-                overflow: scroll;
+                overflow: scroll !important;
             }
         </style>
 

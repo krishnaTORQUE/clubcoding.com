@@ -69,6 +69,8 @@ class dynamic extends VP\Controller\hooks {
             'KEYWORDS' => $this->result['fetch']['post_tags']
         ]);
 
+        $fb_sidebar = true;
+
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once $this->PATH('ACTIVE_APP') . 'view/post_single.php';
         require_once $this->PATH('ACTIVE_APP') . 'includes/sidebar.php';
@@ -104,6 +106,8 @@ class dynamic extends VP\Controller\hooks {
         if ($this->result[0] !== 'success' || $this->result['rows'] < 1) {
             $this->ERROR = true;
         }
+
+        $fb_sidebar = true;
 
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once $this->PATH('ACTIVE_APP') . 'view/posts.php';

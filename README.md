@@ -9,16 +9,16 @@ Help me to find bugs and improve the site.
 #### Contact: support@clubcoding.com
 
 ### Build With
-PHP (Server Script)
+[PHP] (http://php.net/) (Server Script)
 
-Varphp (MVC)
+[Varphp] (https://github.com/krishnaTORQUE/Varphp) (MVC)
 
-HelperClass (Backend Helper Script)
+[HelperClass] (https://github.com/krishnaTORQUE/HelperClass) (Backend Helper Script)
 
-FrontEnd (Client Library)
+[FrontEnd] (https://github.com/krishnaTORQUE/FrontEnd) (Client Library)
 
-Zee Social Buttons (Share Buttons)
+[Zee Social Buttons] (https://github.com/krishnaTORQUE/Zee-Social-Buttons) (Share Buttons)
 
-ImageSlider (Home Page)
+[ImageSlider] (https://github.com/krishnaTORQUE/ImageSlider) (Home Page)
 
-#### Last Update: 01-12-2016
+#### Last Update: 19-12-2016

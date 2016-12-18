@@ -94,13 +94,13 @@ if (!defined('ROOT')) {
                 <tr>
                     <td>Lowercase</td>
                     <td>
-                        <input type="checkbox" <?php if (isset($_POST['lowcase'])) echo 'checked="checked"'; ?> name="lowcase"/> (e.g. abcdef)
+                        <input type="checkbox" checked <?php if (isset($_POST['lowcase'])) echo 'checked="checked"'; ?> name="lowcase"/> (e.g. abcdef)
                     </td>
                 </tr>
                 <tr>
                     <td>Numbers</td>
                     <td>
-                        <input type="checkbox" <?php if (isset($_POST['numb'])) echo 'checked="checked"'; ?> name="numb"/> (e.g. 123456)
+                        <input type="checkbox" checked <?php if (isset($_POST['numb'])) echo 'checked="checked"'; ?> name="numb"/> (e.g. 123456)
                     </td>
                 </tr>
                 <tr>
@@ -111,7 +111,7 @@ if (!defined('ROOT')) {
                 </tr>
                 <tr>
                     <td colspan="2" style="text-align: center">
-                        <input type="submit" value="Generate" name="gen_btn" class="btn btn_cbu" style="padding: 4px 60px"/>
+                        <input type="submit" value="Generate" name="gen_btn" class="btn btn_block btn_cbu" style="padding: 4px 60px"/>
                     </td>
                 </tr>
                 <tr>
@@ -120,7 +120,7 @@ if (!defined('ROOT')) {
                         if (isset($_POST['gen_btn'])) {
                             echo $the_gen_pass;
                         }
-                        ?>" onclick="javascript:this.select();" type="text" placeholder="Your Password Will Be Shown Here" class="field" style="width:90%; padding: 4px;text-align: center;" />                        
+                        ?>" onclick="javascript:this.select();" type="text" placeholder="Your Password Will Be Shown Here" class="field field_block" style="text-align: center;" />                        
                     </td>
                 </tr>
             </table>

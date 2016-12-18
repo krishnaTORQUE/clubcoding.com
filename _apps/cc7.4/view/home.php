@@ -36,7 +36,7 @@ if (!defined('ROOT')) {
     ?>
 
     <h1>Hire or Consult</h1>
-    <table class="table_noborder">
+    <table class="table table_noborder">
         <tr>
             <td>
                 Security Issue or Find Bug (Front End/Back End)

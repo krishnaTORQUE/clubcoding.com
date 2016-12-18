@@ -9,7 +9,7 @@ if (!defined('ROOT')) {
     <div class="inner_content" id="about-us">
         <h2 class="inner_content_title">About Us</h2>
 
-        <img class="lazy-load-imgs respo_img" data-lazy-load-imgs="<?php echo $this->URL('APP') . $this->PATH('ACTIVE_APP'); ?>img/about-us.png" alt="about us"/>
+        <img class="lazy-load-imgs img_respo img_content" data-lazy-load-imgs="<?php echo $this->URL('APP') . $this->PATH('ACTIVE_APP'); ?>img/about-us.png" alt="about us"/>
 
         <p>
             Club Coding is a leading web design and development organization from India.

@@ -6,7 +6,7 @@ if (!defined('ROOT')) {
 
 <div class="contents">
 
-    <h1 class="inner_content_title apg_h1">Live Demo &amp; Tools</h1>
+    <h1 class="inner_content_title apg_h1">Tools & Live Demo</h1>
 
     <div class="inner_content">
         <a href="<?php echo $this->URL('APP'); ?>live/is_site_online">

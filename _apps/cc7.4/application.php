@@ -22,6 +22,8 @@ class application extends VP\Controller\hooks {
 
         require_once ROOT . $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
 
+        $fb_sidebar = true;
+
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once $this->PATH('ACTIVE_APP') . 'view/apps.php';
         require_once $this->PATH('ACTIVE_APP') . 'includes/sidebar.php';

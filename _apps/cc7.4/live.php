@@ -18,6 +18,8 @@ class live extends VP\Controller\hooks {
 
         require_once ROOT . $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
 
+        $fb_sidebar = true;
+
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once $this->PATH('ACTIVE_APP') . 'view/live.php';
         require_once $this->PATH('ACTIVE_APP') . 'includes/sidebar.php';
@@ -56,6 +58,8 @@ class live extends VP\Controller\hooks {
 
         require_once ROOT . $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
 
+        $fb_sidebar = true;
+
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once ROOT . 'live/code_minify_tool.php';
         require_once $this->PATH('ACTIVE_APP') . 'includes/sidebar.php';
@@ -90,6 +94,8 @@ class live extends VP\Controller\hooks {
 
         require_once ROOT . $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
 
+        $fb_sidebar = true;
+
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once ROOT . 'live/password-generator.php';
         require_once $this->PATH('ACTIVE_APP') . 'includes/sidebar.php';
@@ -123,6 +129,8 @@ class live extends VP\Controller\hooks {
         ]);
 
         require_once ROOT . $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
+
+        $fb_sidebar = true;
 
         require_once $this->PATH('ACTIVE_APP') . 'includes/header.php';
         require_once ROOT . 'live/is_site_online.php';

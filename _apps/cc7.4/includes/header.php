@@ -28,7 +28,7 @@ if (!defined('ROOT')) {
             </div>
 
             <div class="marquee-lin">
-                <marquee>Checkout our new tool!</marquee>
+                <marquee scrollamount="3"><a style="font-weight: bold;" href="<?php echo $this->URL('APP'); ?>about#donation">Help us to grow</a></marquee>
             </div>
 
         </div>

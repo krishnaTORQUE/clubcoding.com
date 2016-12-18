@@ -14,7 +14,7 @@ Options -Indexes
 </IfModule>
 
 ## Set Root Path
-SetEnv ROOT_PATH "c:/xampp/htdocs/www/clubcoding/v7.3/"
+SetEnv ROOT_PATH "c:/xampp/htdocs/www/clubcoding/v7.4/"
 
 ## Set Static Error File Path
 SetEnv ERROR_PATH "__VP/includes/error.php"

@@ -36,8 +36,8 @@ if (!defined('ROOT')) {
         <form class="contact_form" action="<?php echo $this->URL('FULL'); ?>" method="post">
             <input class="field nam_fild email_name" type="text" placeholder="Name"/>
             <input class="field nam_fild email_email" type="text" placeholder="Email"/>
-            <textarea class="field email_msg" placeholder="What's on your mind?"></textarea>
-            <input class="btn btn_cbu email_send_btn" type="submit" value="Send Email"/>
+            <textarea class="field field_block email_msg" placeholder="What's on your mind?"></textarea>
+            <input class="btn btn_cbu btn_block email_send_btn" type="submit" value="Send Email"/>
         </form>
 
         <div class="contact_form return_msg"></div>
