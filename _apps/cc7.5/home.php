@@ -8,7 +8,9 @@ class home extends VP\Controller\hooks {
 
     function __construct() {
         parent::__construct();
+    }
 
+    public function index() {
         require_once $this->PATH('ACTIVE_APP') . 'includes/head_all.php';
 
         function home_css($arg) {

@@ -18,7 +18,7 @@ if (!defined('ROOT')) {
             <u>Version: 1.3</u>
         </p>
 
-        <div class="zee-social-buttons" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
+        <div class="zee-social-buttons" data-social-buttons="facebook,twitter,googleplus,linkedin" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
 
         <p>
             Online Code Minify Tool.<br/>

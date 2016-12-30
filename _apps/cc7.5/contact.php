@@ -8,7 +8,9 @@ class contact extends VP\Controller\hooks {
 
     function __construct() {
         parent::__construct();
+    }
 
+    public function index() {
         $this->META_SET([
             'DESCRIPTION' => 'Contact ClubCoding. Social Network',
             'KEYWORDS' => 'clubcoding,contact,bug report,email,social,network,'

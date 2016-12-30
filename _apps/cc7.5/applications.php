@@ -4,11 +4,13 @@ if (!defined('ROOT')) {
     require_once $_SERVER['ROOT_PATH'] . $_SERVER['ERROR_PATH'];
 }
 
-class application extends VP\Controller\hooks {
+class applications extends VP\Controller\hooks {
 
     function __construct() {
         parent::__construct();
+    }
 
+    public function index() {
         $this->META_SET([
             'DESCRIPTION' => 'ClubCoding Apps, Library and softwares.',
             'KEYWORDS' => 'clubcoding,apps,library,softwares,'

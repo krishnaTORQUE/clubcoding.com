@@ -116,6 +116,12 @@ header{
     text-shadow: 1px 1px #fff;
 }
 
+.backtotop{
+    position: fixed;
+    bottom: 20px;
+    visibility: hidden;
+}
+
 .cc_big_btn{
     width: 90%;
     margin: 15px auto;

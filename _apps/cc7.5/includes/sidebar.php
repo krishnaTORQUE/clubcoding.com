@@ -32,4 +32,6 @@ if (!defined('ROOT')) {
     <div class="copy-right">
         2012 - <?php echo date('Y'); ?> &copy; Club Coding
     </div>
+
+    <div class="btn ibtn btn_cbk btn_curve btn_up backtotop" title="Back To Top"></div>
 </div>

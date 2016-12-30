@@ -8,7 +8,9 @@ class about extends VP\Controller\hooks {
 
     function __construct() {
         parent::__construct();
+    }
 
+    public function index() {
         $this->META_SET([
             'DESCRIPTION' => 'About Club Coding. Help and Support. Terms, Conditions and Privacy Policy',
             'KEYWORDS' => 'club coding,about,help,support,terms,condition,privacy,policy,'

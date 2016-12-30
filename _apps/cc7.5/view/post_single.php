@@ -16,7 +16,7 @@ if (!defined('ROOT')) {
             <u>Update: <?php echo date('d-m-Y', strtotime($this->result['fetch']['post_update'])); ?></u>
         </p>
 
-        <div class="zee-social-buttons" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
+        <div class="zee-social-buttons" data-social-buttons="facebook,twitter,googleplus,linkedin" data-social-buttons-img="https://cdn.rawgit.com/krishnaTORQUE/Zee-Social-Buttons/master/zee-social-buttons.png"></div>
 
         <?php
         echo str_replace('-APP-LINK-', $this->URL('APP'), $this->result['fetch']['post_content']);

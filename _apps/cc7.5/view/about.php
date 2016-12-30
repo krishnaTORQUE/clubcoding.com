@@ -23,8 +23,9 @@ if (!defined('ROOT')) {
             It's the time to be smart and take smart decision to save time!
             We are here to serve you. We are waiting for your swift response.
         </p> 
+    </div>
 
-        <br/>
+    <div class="inner_content" id="hire">
         <h2 class="inner_content_title">Hire Us</h2>
 
         <p>
@@ -34,7 +35,6 @@ if (!defined('ROOT')) {
             from us, provide you with qualified staffs working dedicated for you and the facility to manage your virtual offshore employee 
             all by yourself. 
         </p>
-
     </div>
 
     <div class="inner_content" id="donation">
@@ -118,18 +118,6 @@ if (!defined('ROOT')) {
         </div>
     </div>
 
-    <div class="inner_content" id="privacy">
-        <h2 class="inner_content_title">Privacy Policy</h2>
-        <p class="line-sep">
-        <p>
-            `CLUBCODING.COM` do not take/collect any information from visitors. Do not use any cookie either.
-        </p>
-        <p>
-            Maybe our hosting provider does.
-        </p>
-        </p>        
-    </div>
-
     <div class="inner_content" id="terms">
         <h2 class="inner_content_title">Terms and Conditions</h2>
 
@@ -160,6 +148,18 @@ if (!defined('ROOT')) {
         <p class="line-sep">
             * Payment to the `CLUBCODING.COM` shall be made by Cheque/DD/Cash/Bank Transfer or Payple only.
         </p>
+    </div>
+
+    <div class="inner_content" id="privacy">
+        <h2 class="inner_content_title">Privacy Policy</h2>
+        <p class="line-sep">
+        <p>
+            `CLUBCODING.COM` do not take/collect any information from visitors. Do not use any cookie either.
+        </p>
+        <p>
+            Maybe our hosting provider does.
+        </p>
+        </p>        
     </div>
 
 </div>
