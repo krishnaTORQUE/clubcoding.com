@@ -1,5 +1,7 @@
 <?php
 
+ob_start();
+
 function headAll_remove_cache() {
     ob_start();
     header("Cache-Control: no-cache, must-revalidate");

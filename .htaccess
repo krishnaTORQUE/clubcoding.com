@@ -13,11 +13,11 @@ Options -Indexes
     RewriteRule ^(.+)$ index.php/$1 [QSA,L]
 </IfModule>
 
-## Set Root Path
-SetEnv ROOT_PATH "c:/xampp/htdocs/www/clubcoding/v7.5/"
-
 ## Set Static Error File Path
 SetEnv ERROR_PATH "__VP/includes/error.php"
+
+## Set Root Path
+SetEnv ROOT_PATH "c:/xampp/htdocs/www/clubcoding/v7.6/"
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www.clubcoding.com$ [NC]

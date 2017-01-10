@@ -21,4 +21,4 @@ Help me to find bugs and improve the site.
 
 [ImageSlider] (https://github.com/krishnaTORQUE/ImageSlider) (Home Page)
 
-#### Last Update: 30-12-2016
+#### Last Update: 10-01-2017
